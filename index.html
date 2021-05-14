@@ -7,13 +7,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dylan McAulay Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
+    <nav>
+        <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#!">About Me</a></li>
+            <li><a href="#!">Work</a></li>
+            <li><a href="#!">Contact</a></li>
+        </ul>
+    </nav>
+
+    <ul id="slide-out" class="sidenav">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img id="background-img" src="./img/mountain.jpg">
+                </div>
+                <a href="#user"><img id="profile-img" src="img/profile-pic.JPG"></a>
+                <a href="#name"><span class="white-text name">Dylan McAulay</span></a>
+                <a href="#email"><span class="white-text email">dmcaulay97@gmail.com</span></a>
+            </div>
+        </li>
+        <li><a class="waves-effect" href="#!">About Me</a></li>
+        <li><a class="waves-effect" href="#!">Work</a></li>
+        <li><a class="waves-effect" href="#!">Contact</a></li>
+    </ul>
+
+    <div id="welcome" class="valign-wrapper">
+        <div id="welcome-text">
+            <span class="welcome-letter">W</span>
+            <span class="welcome-letter">e</span>
+            <span class="welcome-letter">l</span>
+            <span class="welcome-letter">c</span>
+            <span class="welcome-letter">o</span>
+            <span class="welcome-letter">m</span>
+            <span class="welcome-letter">e</span>
+        </div>
+    </div>
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="script.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,23 @@
+#profile-img{
+    max-width: 40%;
+    border: solid black 2px;
+    border-radius: 5px;
+}
+
+#background-img{
+    max-width: 140%;
+}
+
+#welcome{
+    background-image: url(../img/img3.jpg);
+    background-size: 100%;
+    background-position: center -57px;
+    height: 140px;
+}
+
+#welcome-text{
+    color: white;
+    margin: 0 auto;
+    font-size: 60px;
+}
+
