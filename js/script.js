@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
 //define dom element variables
 const welcomeLetters = $("#welcome-text").children();
 
-//coding functionality that makes the weloce colors change
+//coding functionality that makes the welcome colors change
 let colorCounter = 0
 const colorArray = ["violet", "indigo", "blue", "green", "yellow", "orange", "red"];
 const interval = setInterval(function () {
@@ -15,7 +15,7 @@ const interval = setInterval(function () {
         let letter = welcomeLetters[i];
         let colorIndex = i + colorCounter;
         if (colorIndex > 6) {
-            colorIndex = colorIndex % 7;
+            colorIndex = colorIndex - 7;
         }
         $(letter).css("color", colorArray[colorIndex]);
     }
