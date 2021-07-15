@@ -123,20 +123,28 @@ nav .brand-logo{
 }
 
 #proj2:hover{
-    background-image: url(../img/app2.PNG);
+    background-image: url(../img/vibez.PNG);
     background-repeat: no-repeat;
     background-size: 100%;
     height: 300px;
 }
 
 #proj3:hover{
-    background-image: url(../img/app3.PNG);
+    background-image: url(../img/app2.PNG);
     background-repeat: no-repeat;
     background-size: 100%;
     height: 300px;
 }
 
-#proj4:hover, #proj5:hover, #proj6:hover{
+#proj4:hover{
+    background-image: url(../img/tech-blog.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 300px;
+}
+
+
+#proj5:hover, #proj6:hover{
     height: 300px;
 }
 
